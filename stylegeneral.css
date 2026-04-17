@@ -1,0 +1,24 @@
+* { 
+    box-sizing: border-box;
+    
+}
+
+@font-face { 
+font-family: "Candara"; 
+src: url("https://fonts.adobe.com/fonts/candara") format("") ;      
+}
+
+body {
+    font-family: Candara;
+}
+ 
+header {
+    background-image: url("./backheader.jpg");
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+

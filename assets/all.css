@@ -13,8 +13,7 @@ body {
 }
 
 header {
-    /* Background couvre tout le header sans déformation */
-    background-image: url("./tools/55a40aa8-4767-400a-aba4-e8b1fa1dc192.png");
+    background-image: url("../medias/55a40aa8-4767-400a-aba4-e8b1fa1dc192.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -147,7 +146,7 @@ h2 {
 }
 
 footer {
-    background-image: url(./tools/40bc4302-dba7-4f6c-ac9f-31fde1245f19.png);
+    background-image: url(/medias/40bc4302-dba7-4f6c-ac9f-31fde1245f19.png);
     width: 100%;
     display: grid;
     margin: 0%;

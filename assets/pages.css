@@ -3,9 +3,9 @@ h2{ font-size: 1.6em;
 }
 
 main img {
-  width: 100%;              /* S'adapte à la largeur du conteneur */
-  aspect-ratio: 16 / 9;     /* Définit le ratio largeur/hauteur */
-  object-fit: cover;        /* Recadre l'image si nécessaire */
+  width: 100%;              
+  aspect-ratio: 16 / 9;     
+  object-fit: cover;        
   display: grid;
   place-self: center;
   border-top-left-radius: 20px;
@@ -23,16 +23,15 @@ main .third {
 /* Texte superposé */
  main section h3 {
     position: absolute;
-    top: 5%; /* Centrage vertical */
-    left: 50%; /* Centrage horizontal */
-    transform: translate(-50%, -50%); /* Ajustement du centrage */
+    padding-top: 1%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
     color: rgb(255, 255, 255);
-  -webkit-text-stroke: 1px #3e6176;  /*Épaisseur et couleur du contour */
-    font-size: 2.5em;
+  -webkit-text-stroke: 1px #3e6176;
+    font-size: 2em;
     font-weight: bold;
     text-align: center;
     padding: 2%;
-    /*background: rgba(120, 157, 186, 0.245);  Fond semi-transparent pour lisibilité */
     border-radius: 5px;
     z-index: 2;
   }
